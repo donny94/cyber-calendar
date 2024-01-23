@@ -129,6 +129,7 @@ export class CalendarContent extends PureComponent<CalendarContentProps> {
   }
 
   componentDidMount() {
+    console.log('testing import')
     let { props } = this
 
     this.calendarInteractions = props.pluginHooks.calendarInteractions

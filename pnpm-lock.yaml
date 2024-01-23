@@ -12,6 +12,16 @@ patchedDependencies:
 importers:
 
   .:
+    dependencies:
+      '@fullcalendar/core':
+        specifier: workspace:~6.1.10
+        version: link:packages/core/dist
+      '@fullcalendar/daygrid':
+        specifier: workspace:~6.1.10
+        version: link:packages/daygrid/dist
+      '@fullcalendar/interaction':
+        specifier: workspace:~6.1.10
+        version: link:packages/interaction/dist
     devDependencies:
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -20,22 +30,22 @@ importers:
   bundle:
     dependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/core/dist
       '@fullcalendar/daygrid':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/daygrid/dist
       '@fullcalendar/interaction':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/interaction/dist
       '@fullcalendar/list':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/list/dist
       '@fullcalendar/multimonth':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/multimonth/dist
       '@fullcalendar/timegrid':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/timegrid/dist
     devDependencies:
       '@fullcalendar/standard-scripts':
@@ -46,7 +56,7 @@ importers:
   packages/bootstrap4:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -56,7 +66,7 @@ importers:
   packages/bootstrap5:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -83,7 +93,7 @@ importers:
   packages/daygrid:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -93,7 +103,7 @@ importers:
   packages/google-calendar:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -103,7 +113,7 @@ importers:
   packages/icalendar:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -116,7 +126,7 @@ importers:
   packages/interaction:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -126,7 +136,7 @@ importers:
   packages/list:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -136,7 +146,7 @@ importers:
   packages/luxon1:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -149,7 +159,7 @@ importers:
   packages/luxon2:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -165,7 +175,7 @@ importers:
   packages/luxon3:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -181,7 +191,7 @@ importers:
   packages/moment:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -194,7 +204,7 @@ importers:
   packages/moment-timezone:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -207,11 +217,11 @@ importers:
   packages/multimonth:
     dependencies:
       '@fullcalendar/daygrid':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../daygrid/dist
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -221,7 +231,7 @@ importers:
   packages/rrule:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -234,11 +244,11 @@ importers:
   packages/timegrid:
     dependencies:
       '@fullcalendar/daygrid':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../daygrid/dist
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -248,7 +258,7 @@ importers:
   packages/web-component:
     devDependencies:
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../core/dist
       '@fullcalendar/standard-scripts':
         specifier: '*'
@@ -399,46 +409,46 @@ importers:
   tests:
     dependencies:
       '@fullcalendar/bootstrap':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/bootstrap4/dist
       '@fullcalendar/core':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/core/dist
       '@fullcalendar/daygrid':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/daygrid/dist
       '@fullcalendar/google-calendar':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/google-calendar/dist
       '@fullcalendar/icalendar':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/icalendar/dist
       '@fullcalendar/interaction':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/interaction/dist
       '@fullcalendar/list':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/list/dist
       '@fullcalendar/luxon3':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/luxon3/dist
       '@fullcalendar/moment':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/moment/dist
       '@fullcalendar/moment-timezone':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/moment-timezone/dist
       '@fullcalendar/multimonth':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/multimonth/dist
       '@fullcalendar/rrule':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/rrule/dist
       '@fullcalendar/timegrid':
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../packages/timegrid/dist
       fullcalendar:
-        specifier: ~6.1.9
+        specifier: ~6.1.10
         version: link:../bundle/dist
       luxon:
         specifier: ^2.0.0
@@ -1365,6 +1375,7 @@ packages:
 
   /bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
+    requiresBuild: true
     dependencies:
       file-uri-to-path: 1.0.0
     dev: true
@@ -2627,6 +2638,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -3754,6 +3766,7 @@ packages:
 
   /nan@2.17.0:
     resolution: {integrity: sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==}
+    requiresBuild: true
     dev: true
     optional: true
 
