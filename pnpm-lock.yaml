@@ -23,7 +23,7 @@ importers:
         specifier: ~6.1.10
         version: link:packages/interaction/dist
       '@fullcalendar/standard-scripts':
-        specifier: '*'
+        specifier: workspace:^
         version: link:scripts
 
   bundle:

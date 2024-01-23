@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "keywords": [
     "calendar",
     "event",
@@ -52,9 +52,9 @@
     }
   },
   "dependencies": {
-	"@fullcalendar/standard-scripts": "*",
-	"@fullcalendar/core": "~6.1.10",
-	"@fullcalendar/daygrid": "~6.1.10",
-	"@fullcalendar/interaction": "~6.1.10"
+    "@fullcalendar/core": "~6.1.10",
+    "@fullcalendar/daygrid": "~6.1.10",
+    "@fullcalendar/interaction": "~6.1.10",
+    "@fullcalendar/standard-scripts": "workspace:^"
   }
 }
