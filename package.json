@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "keywords": [
     "calendar",
     "event",
@@ -26,16 +26,6 @@
   "copyright": "2023 Adam Shaw",
   "devDependencies": {
     "@fullcalendar/standard-scripts": "*"
-  },
-  "scripts": {
-    "postinstall": "standard-scripts postinstall",
-    "lint": "standard-scripts lint",
-    "build": "standard-scripts build",
-    "dev": "standard-scripts dev",
-    "test": "standard-scripts test",
-    "test:dev": "standard-scripts test --dev",
-    "clean": "standard-scripts clean",
-    "ci": "pnpm run lint && pnpm run build && pnpm run test"
   },
   "type": "module",
   "engines": {
